@@ -18,3 +18,6 @@ UBUNTU
 sudo su
 cd /usr/lib/jvm/java-11-openjdk-amd64/bin/
 .\keytool -genkeypair -alias bootsecurity -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore bootsecurity.p12 -validity 3650
+
+
+### Eclipse ile projeyi içe aktarmanın yolu: File > Import > Maven > Existing Maven Project Browse > İlgili klasörün seçimi > Tamam!
